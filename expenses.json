@@ -1,6 +1,12 @@
 [
   {
-    "name": "Gobhi",
-    "amount": 50.0
+    "category": "Gas",
+    "amount": 500.0,
+    "date": "01/08/2025"
+  },
+  {
+    "category": "Gobhi",
+    "amount": 40.0,
+    "date": "01/08/2025"
   }
 ]

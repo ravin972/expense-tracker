@@ -27,11 +27,19 @@ def index():
 
 @app.route('/add', methods=['POST'])
 def add():
-    name = request.form['name']
+    category = request.form['category']
     amount = float(request.form['amount'])
+    
+    # Get current date in the format DD/MM/YYYY
+    from datetime import datetime
+    current_date = datetime.now().strftime('%d/%m/%Y')
 
     expenses = load_expenses()
-    expenses.append({"name": name, "amount": amount})
+    expenses.append({
+        "category": category,
+        "amount": amount,
+        "date": current_date
+    })
     save_expenses(expenses)
 
     return redirect(url_for('index'))
