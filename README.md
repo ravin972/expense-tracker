@@ -4,6 +4,12 @@ A simple and interactive **Command Line Expense Tracker** built in Python to hel
 
 ---
 
+
+https://github.com/user-attachments/assets/c077fa0c-d633-4589-ac5d-9919813bafaa
+
+
+---
+
 ## 📌 Features
 
 - ✅ Add expenses with name and amount
